@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { JaganLibModule} from 'jagan-lib';
+// import { ReddyComponent } from 'jagan-lib';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { JaganLibModule} from 'jagan-lib';
   ],
   imports: [
     BrowserModule,
-    JaganLibModule
+    JaganLibModule,
+    // ReddyComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
